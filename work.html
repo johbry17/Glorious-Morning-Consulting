@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Work — Glorious Morning Consulting</title>
+  <meta name="description" content="Independent analytical projects including Floodlines (Vermont flood risk), Capital Crashpad (DC short-term rentals), Walk to Mordor, and Waypoints.">
+  <meta property="og:title" content="Selected Work — Glorious Morning Consulting">
+  <meta property="og:description" content="A collection of independent analytical projects in geospatial research, data storytelling, and policy analysis.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/images/emblem.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="nav-brand" href="index.html" aria-label="Glorious Morning Consulting — Home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" fill="none" aria-hidden="true">
+          <g stroke="#cf9d47" stroke-linecap="round"><line x1="47" y1="7" x2="52" y2="2" stroke-width="1.6"/><line x1="52" y1="14" x2="58" y2="12" stroke-width="1.6"/><line x1="53" y1="22" x2="59" y2="21" stroke-width="1.6"/><line x1="52" y1="30" x2="58" y2="32" stroke-width="1.6"/><line x1="48" y1="37" x2="53" y2="41" stroke-width="1.6"/><path d="M 42 8 A 15 15 0 0 1 53 36" stroke-width="2" fill="none"/></g>
+          <circle cx="25" cy="23" r="17" stroke="currentColor" stroke-width="2"/>
+          <ellipse cx="25" cy="23" rx="17" ry="6" stroke="currentColor" stroke-width="1.3"/>
+          <ellipse cx="25" cy="23" rx="6" ry="17" stroke="currentColor" stroke-width="1.3"/>
+          <line x1="8.5" y1="17" x2="41.5" y2="17" stroke="currentColor" stroke-width="0.9"/>
+          <line x1="8" y1="29" x2="42" y2="29" stroke="currentColor" stroke-width="0.9"/>
+          <line x1="25" y1="40" x2="25" y2="45" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="19" y1="45" x2="31" y2="45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <rect x="12" y="47" width="26" height="5" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="15" y1="47" x2="15" y2="52" stroke="currentColor" stroke-width="0.9"/>
+          <rect x="10" y="52" width="30" height="5" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="13" y1="52" x2="13" y2="57" stroke="currentColor" stroke-width="0.9"/>
+          <rect x="8" y="57" width="34" height="6" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="11" y1="57" x2="11" y2="63" stroke="currentColor" stroke-width="0.9"/>
+        </svg>
+        <span class="nav-wordmark">Glorious Morning<br>Consulting</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ── PAGE HERO ── -->
+    <header class="page-hero">
+      <div class="container">
+        <span class="label">Selected Work</span>
+        <h1>Independent analytical projects</h1>
+        <p class="lead">A set of investigations undertaken to explore analytical methods, develop tools, and demonstrate what careful analysis of public data can reveal. All projects are independent work — not client engagements.</p>
+      </div>
+    </header>
+
+    <!-- ── PROJECTS ── -->
+    <section class="section">
+      <div class="container">
+
+        <p class="project-note" style="margin-bottom: 2.5rem;">Each project links to a live interactive version and a full case study on the accompanying portfolio site, where available.</p>
+
+        <!-- Project: Floodlines -->
+        <article class="project-card" style="margin-bottom: 2rem;" aria-labelledby="proj-floodlines">
+          <div class="project-card-body" style="flex-direction: row; gap: 2.5rem; align-items: start; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px;">
+              <div class="project-tags" style="margin-bottom: 0.75rem;">
+                <span class="tag tag--geo">Geospatial</span>
+                <span class="tag tag--policy">Policy Analysis</span>
+                <span class="tag tag--data">Data Analysis</span>
+              </div>
+              <h2 id="proj-floodlines" style="font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 0.25rem;">Floodlines</h2>
+              <p class="project-sub" style="margin-bottom: 1.25rem; font-size: 1rem;">How Flood Risk Becomes Public Investment</p>
+              <p>Vermont has been flooded twice in a decade — Tropical Storm Irene in 2011 and the catastrophic 2023 floods — and will flood again. Floodlines investigates whether federal hazard-mitigation funding is reaching the communities that face the greatest flood risk and social vulnerability, or whether it tracks the geography of past disasters instead.</p>
+              <p>The project builds a reproducible geospatial analysis pipeline combining FEMA flood-risk and mitigation datasets, National Flood Insurance Program claims, Census demographics, and Vermont municipal boundaries. An interactive dashboard lets users compare definitions of need, examine funding gaps, and explore results town by town. Sensitivity analysis across multiple model specifications tests whether the patterns hold when the measure of need changes.</p>
+              <p style="font-size: 0.9rem; color: var(--muted);">Python · GeoPandas · Shapely · scikit-learn · statsmodels · Leaflet · D3.js · OpenFEMA · ACS</p>
+            </div>
+            <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.75rem; min-width: 180px;">
+              <a href="https://johbry17.github.io/Floodlines/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%; justify-content: center;">View Project ↗</a>
+              <a href="https://informedwanderer.com/workshop/floodlines.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">Case Study ↗</a>
+              <a href="https://github.com/johbry17/Floodlines" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project: Capital Crashpad -->
+        <article class="project-card" style="margin-bottom: 2rem;" aria-labelledby="proj-crashpad">
+          <div class="project-card-body" style="flex-direction: row; gap: 2.5rem; align-items: start; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px;">
+              <div class="project-tags" style="margin-bottom: 0.75rem;">
+                <span class="tag tag--data">Data Analysis</span>
+                <span class="tag tag--policy">Policy Analysis</span>
+                <span class="tag tag--story">Data Storytelling</span>
+              </div>
+              <h2 id="proj-crashpad" style="font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 0.25rem;">Capital Crashpad</h2>
+              <p class="project-sub" style="margin-bottom: 1.25rem; font-size: 1rem;">When 1,800 Listings Vanished</p>
+              <p>Between Q1 and Q2 2024, Washington, D.C. lost nearly 1,800 active Airbnb listings in a single quarter. The decline coincided with Airbnb's expanded identity verification and quality-removal program — not with changes in DC's own short-term rental law. Capital Crashpad investigates this structural break and what it reveals about how platform governance can reshape local housing markets beyond the reach of municipal regulation.</p>
+              <p>The project uses quarterly listing data from Inside Airbnb, processed through a PostgreSQL and Python pipeline examining changes in supply, licensing, minimum-stay requirements, pricing, and host concentration. An interactive dashboard lets users explore neighborhood patterns; a guided case study connects those patterns to the regulatory context. The analysis is careful to distinguish observed market changes from the plausible-but-unproven causal story.</p>
+              <p style="font-size: 0.9rem; color: var(--muted);">Python · PostgreSQL · Pandas · Leaflet · JavaScript · Inside Airbnb · Census Reporter</p>
+            </div>
+            <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.75rem; min-width: 180px;">
+              <a href="https://johbry17.github.io/Capital-Crashpad/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%; justify-content: center;">View Project ↗</a>
+              <a href="https://informedwanderer.com/workshop/capital-crashpad.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">Case Study ↗</a>
+              <a href="https://github.com/johbry17/Capital-Crashpad" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project: Walk to Mordor -->
+        <article class="project-card" style="margin-bottom: 2rem;" aria-labelledby="proj-mordor">
+          <div class="project-card-body" style="flex-direction: row; gap: 2.5rem; align-items: start; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px;">
+              <div class="project-tags" style="margin-bottom: 0.75rem;">
+                <span class="tag tag--story">Data Storytelling</span>
+                <span class="tag tag--geo">Geospatial</span>
+                <span class="tag tag--data">Temporal Analysis</span>
+              </div>
+              <h2 id="proj-mordor" style="font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 0.25rem;">Walk to Mordor</h2>
+              <p class="project-sub" style="margin-bottom: 1.25rem; font-size: 1rem;">Real Footsteps. Fictional Journeys.</p>
+              <p>Between March 2024 and June 2026, 5,196 miles on foot were mapped onto three virtual walking challenges through Middle-earth: the journeys of Frodo, Aragorn, and Bilbo. Walk to Mordor brings real daily walking records together with Tolkien's fictional chronology, building two parallel timelines on the same map — one measured in real dates, one in the Third Age of Middle-earth.</p>
+              <p>The central technical challenge was reconstructing Tolkien's daily geography. A custom Shire Calendar assigns dates to known mileage markers; interpolation fills the movement between them. The result lets users follow either timeline through a hand-traced route, with narrative events, cumulative distances, and comparative analysis revealing how differently the same journey unfolds when measured by real time versus fictional urgency.</p>
+              <p style="font-size: 0.9rem; color: var(--muted);">Python · Pandas · NumPy · Leaflet · JavaScript · GeoJSON · The Atlas of Middle-earth</p>
+            </div>
+            <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.75rem; min-width: 180px;">
+              <a href="https://johbry17.github.io/Walk-to-Mordor/static/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%; justify-content: center;">View Project ↗</a>
+              <a href="https://informedwanderer.com/workshop/walk-to-mordor.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">Case Study ↗</a>
+              <a href="https://github.com/johbry17/Walk-to-Mordor" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project: Waypoints -->
+        <article class="project-card" aria-labelledby="proj-waypoints">
+          <div class="project-card-body" style="flex-direction: row; gap: 2.5rem; align-items: start; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px;">
+              <div class="project-tags" style="margin-bottom: 0.75rem;">
+                <span class="tag tag--geo">Geospatial</span>
+                <span class="tag tag--story">Data Storytelling</span>
+              </div>
+              <h2 id="proj-waypoints" style="font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 0.25rem;">Waypoints</h2>
+              <p class="project-sub" style="margin-bottom: 1.25rem; font-size: 1rem;">A Technical Memoir in Maps and Data Layers</p>
+              <p>An interactive atlas of places visited, journeys taken, and experiences documented — built with Leaflet, Python, and geospatial APIs. Waypoints combines geographic features, travel routes, personal photographs, and narrative into an explorable map that spans five continents.</p>
+              <p>The project integrates data from Google Sheets, CSVs, and mapping APIs, with custom GeoJSON features and manually reconstructed routes where existing data couldn't capture the journey. Layer controls, clustered markers, and photographic popups help visitors move between a global overview and the details of individual places. It is, by design, never finished.</p>
+              <p style="font-size: 0.9rem; color: var(--muted);">Python · Leaflet · JavaScript · GeoJSON · Mapping APIs · Google Sheets</p>
+            </div>
+            <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.75rem; min-width: 180px;">
+              <a href="https://johbry17.github.io/Waypoints/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%; justify-content: center;">View Project ↗</a>
+              <a href="https://informedwanderer.com/workshop/waypoints.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">Case Study ↗</a>
+              <a href="https://github.com/johbry17/Waypoints" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── CTA ── -->
+    <section class="section--sm section--parchment">
+      <div class="container text-center">
+        <span class="label">Next steps</span>
+        <h2 class="mt-2" style="max-width: 460px; margin-left: auto; margin-right: auto;">Bring your own question.</h2>
+        <p class="lead mt-3" style="max-width: 480px; margin-left: auto; margin-right: auto;">These projects represent independent work. Client engagements are scoped around your organization's specific question, data, and intended use.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+          <a href="services.html" class="btn btn-outline">Our Services</a>
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" fill="none" aria-hidden="true">
+            <g stroke="#cf9d47" stroke-linecap="round"><line x1="47" y1="7" x2="52" y2="2" stroke-width="1.6"/><line x1="52" y1="14" x2="58" y2="12" stroke-width="1.6"/><line x1="53" y1="22" x2="59" y2="21" stroke-width="1.6"/><line x1="52" y1="30" x2="58" y2="32" stroke-width="1.6"/><line x1="48" y1="37" x2="53" y2="41" stroke-width="1.6"/><path d="M 42 8 A 15 15 0 0 1 53 36" stroke-width="2" fill="none"/></g>
+            <circle cx="25" cy="23" r="17" stroke="currentColor" stroke-width="2"/>
+            <ellipse cx="25" cy="23" rx="17" ry="6" stroke="currentColor" stroke-width="1.3"/>
+            <ellipse cx="25" cy="23" rx="6" ry="17" stroke="currentColor" stroke-width="1.3"/>
+            <line x1="8.5" y1="17" x2="41.5" y2="17" stroke="currentColor" stroke-width="0.9"/>
+            <line x1="8" y1="29" x2="42" y2="29" stroke="currentColor" stroke-width="0.9"/>
+            <line x1="25" y1="40" x2="25" y2="45" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <line x1="19" y1="45" x2="31" y2="45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <rect x="12" y="47" width="26" height="5" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+            <line x1="15" y1="47" x2="15" y2="52" stroke="currentColor" stroke-width="0.9"/>
+            <rect x="10" y="52" width="30" height="5" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+            <line x1="13" y1="52" x2="13" y2="57" stroke="currentColor" stroke-width="0.9"/>
+            <rect x="8" y="57" width="34" height="6" rx="0.5" stroke="currentColor" stroke-width="1.6"/>
+            <line x1="11" y1="57" x2="11" y2="63" stroke="currentColor" stroke-width="0.9"/>
+          </svg>
+          <h3>Glorious Morning Consulting</h3>
+          <p>Data · Research · Visualization</p>
+          <p class="tagline">A small independent practice with a big worldview.</p>
+        </div>
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Selected work">
+          <h4>Selected Work</h4>
+          <ul role="list">
+            <li><a href="https://johbry17.github.io/Floodlines/" target="_blank" rel="noopener noreferrer">Floodlines ↗</a></li>
+            <li><a href="https://johbry17.github.io/Capital-Crashpad/" target="_blank" rel="noopener noreferrer">Capital Crashpad ↗</a></li>
+            <li><a href="https://johbry17.github.io/Walk-to-Mordor/static/" target="_blank" rel="noopener noreferrer">Walk to Mordor ↗</a></li>
+            <li><a href="https://johbry17.github.io/Waypoints/" target="_blank" rel="noopener noreferrer">Waypoints ↗</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span class="quirk">Consultations available in the afternoon, by appointment.</span>
+        <span>© 2026 Glorious Morning Consulting. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
